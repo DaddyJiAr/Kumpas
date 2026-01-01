@@ -68,3 +68,49 @@
     flex-direction: row;
     gap: 25px;
 }
+
+.how-it-works-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.user-reviews-section-contianer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.reviews-container{
+    /* border: 1px solid #ffffff; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sign-up-invite-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--card-background);
+    padding: 50px;
+    border-radius: 20px;
+
+    margin-bottom: 100px;
+}
+
+.sign-up-invite-container *{
+    text-align: center;
+}
+
+.sign-up-invite-container .section-title{
+    font-size: 2.5rem;
+    max-width: 750px;
+}
+
+.sign-up-invite-container .section-subtitle{
+    font-size: 1.2rem;
+    color: var(--subtext);
+    max-width: 650px;
+}

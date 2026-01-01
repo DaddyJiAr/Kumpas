@@ -1,0 +1,35 @@
+.step-inner-card-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.step-logo-container{
+    position: relative;
+}
+
+.step-logo{
+    color: var(--default-button-color); 
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+.step-words{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.step-description{
+    color: var(--subtext2);
+    font-size: 0.8rem;
+}
+
+.vertical-line-connector{
+    position: absolute;
+    margin-top: 20px;
+    transform: rotate(90deg) translateY(0px);
+    width: 25px;
+    border: none;
+    border-top: 2px solid var(--subtext3);
+}

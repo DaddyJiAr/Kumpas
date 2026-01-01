@@ -12,6 +12,10 @@
   --end-gradient: #478591;
   --subtext: #cccccc;
   --subtext2: #959595;
+  --subtext3: #696969;
+  --card-background: #172c30;
+  --card-border: rgba(255, 255, 255, 0.1);
+
 }
 
 *{

@@ -6,4 +6,5 @@
     color: var(--default-button-text-color);
     outline: none;
     border: none;
+    cursor: pointer;
 }
