@@ -1,0 +1,9 @@
+.custom-button{
+    padding: 10px;
+    background-color: var(--default-button-color);
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--default-button-text-color);
+    outline: none;
+    border: none;
+}

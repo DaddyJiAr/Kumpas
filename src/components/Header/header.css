@@ -1,0 +1,53 @@
+.main-header-container{
+    /* padding: 0 10%; */
+}
+
+.homepage-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 3%;
+}
+
+.header-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-logo-image{
+    /* border: 1px solid #000; */
+    width: 75px;
+
+}
+
+.header-logo-name{
+    font-size: 2rem;
+}
+
+.header-side-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-side-container *{
+    font-weight: bold;
+}
+
+
+.grey-line{
+    border: 1px solid #6969693d;
+    /* border-bottom: 1px solid #6969693d; */
+}
+
+/* .header-sign-up-button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 170, 255);
+    border-radius: 10px;
+    color: black;
+} */
