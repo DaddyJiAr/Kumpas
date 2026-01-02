@@ -7,6 +7,7 @@ export default function Button(props){
             padding: props?.padding !== undefined && `${props.padding}`,
             backgroundColor: props?.bgColor,
             borderRadius: props?.borRad !== undefined && `${props.borRad}px`,
+            border: props?.border,
             fontWeight: props?.weight,
             color: props?.textColor,
             fontSize: props?.fontSize !== undefined && `${props.fontSize}`,

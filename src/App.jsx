@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router"
 import Homepage from "./pages/Homepage/Homepage"
 import Translation from "./pages/TranslationPage/Translation"
+import Profile from "./pages/Profile/Profile"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage/>}/>
           <Route path="/translate" element={<Translation/>}/>
+          <Route path="/profile" element={<Profile/>}/>
         </Routes>
       </BrowserRouter>
     </>

@@ -1,0 +1,284 @@
+.profile-page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-profile-section-container {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.profile-side-panel-container {
+    width: 25%;
+    padding-right: 80px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-side-panel-container *{
+    width: 100%;
+}
+
+.profile-main-panel-container {
+    /* border: 1px solid #ffffff; */
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+    /* background-color: pink; */
+}
+
+.user-profile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-profile-image{
+    width: 40px;
+}
+
+.user-profile-credentials{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.user-email{
+    color: var(--subtext2);
+    font-size: 0.9rem;
+}
+
+.side-setting-sections-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.setting-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    gap: 30px;
+    padding: 10px;
+}
+
+.setting-section *{
+    width: fit-content;
+}
+
+.setting-section:hover{
+    background-color: var(--highlight-color);
+}
+
+.setting-section:hover *{
+    color: var(--highlight-text-color);
+}
+
+.setting-section.selected{
+    background-color: var(--highlight-color);
+}
+
+.setting-section.selected *{
+    color: var(--highlight-text-color);
+}
+
+.user-personal-info-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 80px;
+    gap: 30px;
+}
+
+.user-profile-header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-user-profile-image{
+    width: 100px;
+}
+
+.main-user-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main-user-username{
+    color: var(--subtext2);
+    font-size: 0.9rem;
+}
+
+.user-personal-info-editable-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-section-title{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.personal-info-row, .settings-select-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.info-input-group label{
+    font-size: 0.9rem;
+}
+
+.info-input-group input{
+    background-color: var(--default-button-text-color);
+    border: 2px solid var(--card-border);
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.learning-statistics-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.statistics-list-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.statistic-card-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-background);
+    padding: 20px;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.statistic-label{
+    font-size: 0.9rem;
+    color: var(--semi-transparent3);
+}
+
+.statistic-data{
+    font-size: 2rem;
+    color: var(--highlight-text-color);
+    font-weight: bold;
+}
+
+.statistic-progress-bar-container{
+    position: relative;
+    flex: 1;
+    /* margin-bottom: 10px; */
+}
+
+.main-progress-bar, .back-progress-bar{
+    position: absolute;
+    border-radius: 20px;
+    bottom: 0;
+}
+
+.main-progress-bar{
+    width: 33%;
+    border: 10px solid var(--highlight-text-color);
+}
+
+.back-progress-bar{
+    width: 100%;
+    border: 10px solid var(--highlight-color);
+}
+
+.learning-settings-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.settings-selection{
+    background-color: var(--semi-transparent);
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.settings-selection option{
+    background-color: var(--default-button-text-color);
+    border: none;
+    outline: none;
+}
+
+.switch-container{
+    position: relative;
+    height: 30px;
+    width: 50px;
+    background: var(--default-button-color);
+}
+
+.switch-container, .switch-indicator{
+    border-radius: 100px;
+}
+
+.switch-indicator{
+    height: 20px;
+    position: absolute;
+    background: white;
+    width: 20px;
+    top: 5px;
+    right: 5px;
+}
+
+.bottom-buttons-container{
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.log-out-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    gap: 10px;
+}
+
+.log-out-button *{
+    font-size: 1.1rem;
+}
+
+.profile-action-buttons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

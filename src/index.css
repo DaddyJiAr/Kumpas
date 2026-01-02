@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 :root{
-  --background-color: #101e21;
+  --background-color: #101f22;
   --highlight-color: #1a4a54;
   --highlight-text-color: #14bcde;
   --default-button-color: #13c8ec;
   --default-button-text-color: #1c2b2e;
   --semi-transparent: rgba(255, 255, 255, 0.15);
   --semi-transparent2: rgba(255, 255, 255, 0.1);
+  --semi-transparent3: rgba(190, 244, 255, 0.75);
+  --semi-transparent4: rgba(0, 0, 0, 0.05);
   --start-gradient: #082a40;
   --end-gradient: #478591;
   --subtext: #cccccc;
@@ -29,4 +31,8 @@
 
 body{
   background-color: var(--background-color);
+}
+
+#root{
+  height: 100vh;
 }

@@ -1,6 +1,6 @@
 import './translation.css'
 import Button, { ButtonIcon } from '../../components/Button/Button'
-import Header from '../../components/Header/Header'
+import Header from '../../components/Header - Homepage/Header'
 import SignPlaceholder from '../../assets/signing-placeholder.png'
 import Footer from '../../components/Footer/Footer'
 
