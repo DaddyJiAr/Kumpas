@@ -2,6 +2,10 @@
     /* padding: 0 10%; */
 }
 
+.header-logo-link{
+    text-decoration: none;
+}
+
 .homepage-header-container{
     display: flex;
     flex-direction: row;
@@ -35,6 +39,11 @@
 
 .header-side-container *{
     font-weight: bold;
+    cursor: pointer;
+}
+
+.header-side-container *:hover{
+    text-decoration: underline;
 }
 
 

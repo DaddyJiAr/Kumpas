@@ -8,6 +8,7 @@
   --default-button-color: #13c8ec;
   --default-button-text-color: #1c2b2e;
   --semi-transparent: rgba(255, 255, 255, 0.15);
+  --semi-transparent2: rgba(255, 255, 255, 0.1);
   --start-gradient: #082a40;
   --end-gradient: #478591;
   --subtext: #cccccc;

@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router'
 import Button from '../../components/Button/Button'
 import FeatureCard from '../../components/Features Card - Homepage/FeatureCard'
 import Footer from '../../components/Footer/Footer'
@@ -7,7 +8,7 @@ import UserReview from '../../components/User Review - Homepage/UserReview'
 import './homepage.css'
 
 export default function Homepage(){
-
+    const navigate = useNavigate();
     return(
         <div className='homepage-container'>
             <Header/>
@@ -15,7 +16,7 @@ export default function Homepage(){
                 <p className='main-hero-text'>Unlock Filipino Sign Language. Translate and Learn with Kumpas.</p>
                 <p className='hero-subtext'>Your AI-powered bridge between spoken language and FSL. Real-time translation and gamified lessons, all in one place.</p>
                 <div className="hero-buttons-container">
-                    <Button text='Start Translating'/>
+                    <Button text='Start Translating' onClick={() => {navigate('/translate')}}/>
                     <Button text='Begin Learning' textColor='white' bgColor='var(--semi-transparent)'/>
                 </div>
             </div>
