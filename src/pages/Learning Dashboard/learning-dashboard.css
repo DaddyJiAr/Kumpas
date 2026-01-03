@@ -1,0 +1,88 @@
+.learning-dashboard-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.learning-dashboard-side-panel-container{
+    height: 100%;
+    border-right: 1px solid var(--semi-transparent2);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+    padding: 20px;
+}
+
+.user-dashboard-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.user-dashboard-credentials{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.user-dashboard-image{
+    width: 40px;
+}
+
+.user-name{
+    font-size: 1rem;
+}
+
+.user-greeting{
+    font-size: 0.8rem;
+    color: var(--subtext);
+}
+
+.side-learning-sections-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    height: 100%;
+}
+
+.learning-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* .learning-section *{
+    font-size: 1.2rem;
+} */
+.learning-section.selected, .learning-section:hover{
+    background-color: var(--highlight-color);
+}
+
+.learning-section.selected, .learning-section:hover *{
+    color: var(--highlight-text-color);
+}
+
+.settings-button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    margin-top: auto;
+    cursor: pointer;
+}
+
+.settings-button *{
+    font-size: 1.2rem;
+}
