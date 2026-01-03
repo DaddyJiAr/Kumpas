@@ -1,0 +1,27 @@
+.unit-lesson-circle-container{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid var(--blue-border);
+    aspect-ratio: 1/1;
+}
+
+.unit-lesson-status{
+    font-size: 1.5rem;
+}
+
+.unit-lesson-status.ongoing{
+    color: var(--highlight-text-color);
+}
+
+.unit-lesson-title{
+    font-weight: bold;
+}
+
+.unit-lesson-status, .unit-lesson-title{
+    width: fit-content;
+}

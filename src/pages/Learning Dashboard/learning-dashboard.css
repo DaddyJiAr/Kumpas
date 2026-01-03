@@ -1,11 +1,11 @@
 .learning-dashboard-container{
     display: flex;
     flex-direction: row;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .learning-dashboard-side-panel-container{
-    height: 100%;
+    /* height: 100%; */
     border-right: 1px solid var(--semi-transparent2);
     width: 20%;
     display: flex;
@@ -41,6 +41,7 @@
 }
 
 .side-learning-sections-container{
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -79,10 +80,156 @@
     align-items: center;
     gap: 5px;
     padding: 10px;
-    margin-top: auto;
     cursor: pointer;
+    position: fixed;
+    bottom: 0;
 }
 
 .settings-button *{
     font-size: 1.2rem;
+}
+
+.learning-dashboard-main-panel-container{
+    padding: 50px  ;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.learning-dashboard-header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.learning-dashboard-title{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.learning-dashboard-subtitle{
+    color: var(--semi-transparent3);
+}
+
+.statistics-list-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.dashboard-statistic-card-container{
+    padding: 20px;
+    flex: 1;
+    background-color: var(--card-background);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dashboard-statistic-data{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.learning-dashboard-main-content-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.learning-dashboard-units-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.learning-dashboard-unit-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.unit-lessons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.unit-lessons-container *{
+    width: 30%;
+}
+
+.learning-dashboard-main-side-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.learning-dashboard-side-content-card{
+    background-color: var(--card-background);
+    border: 1px solid var(--card-border);
+}
+
+.side-content-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.learning-dashboard-main-side-content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.learning-dashboard-side-content-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.side-content-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.side-content-description{
+    color: var(--subtext);
+}
+
+.side-content-reward-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.side-content-reward-icon{
+    color: var(--card-background);
+    width: fit-content;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: var(--default-button-color);
+}
+
+.side-content-reward-text{
+    color: var(--default-button-color);
+}
+
+.side-content-view-all{
+    font-size: 0.9rem;
+    color: var(--default-button-color);
+}
+
+.leaderboard-list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

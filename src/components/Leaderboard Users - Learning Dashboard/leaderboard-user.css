@@ -1,0 +1,25 @@
+.leaderboard-user-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.leaderboard-user-container.user{
+    background-color: var(--highlight-color);    
+    padding: 10px 5px;
+}
+
+.leaderboard-user-container.user *{
+    color: var(--highlight-text-color);  
+    font-weight: bold;  
+}
+
+.leaderboard-user-picture{
+    width: 50px;
+}
+
+.leaderboard-user-xp{
+    color: var(--subtext);
+}
